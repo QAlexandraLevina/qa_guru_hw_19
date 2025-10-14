@@ -3,7 +3,7 @@ import allure
 import pytest
 from appium.options.android import UiAutomator2Options
 from selene import browser
-from selenium import webdriver
+from appium import webdriver
 from config import settings
 from utils.attachments import add_screenshot, add_xml, add_video
 
